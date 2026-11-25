@@ -1,8 +1,8 @@
 from fastapi import FastAPI
 
-from app import models 
-from app.database.conexion import Base, engine
-from app.routers import animales, usuarios
+from models import models 
+from database.conexion import Base, engine
+from routers import animales, usuarios
 
 Base.metadata.create_all(bind=engine)
 

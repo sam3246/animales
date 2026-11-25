@@ -1,6 +1,6 @@
 from sqlalchemy import Column, Integer, String
 
-from app.database.conexion import Base
+from database.conexion import Base
 
 
 class Animal(Base):
