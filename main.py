@@ -1,6 +1,6 @@
 from fastapi import FastAPI
 
-from models import models 
+from models import Animal, User
 from database.conexion import Base, engine
 from routers import animales, usuarios
 
